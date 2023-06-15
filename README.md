@@ -11,20 +11,24 @@
 [code](https://github.com/Decoyer-71/BrainTumor/tree/master/code) : 학습 및 모델생성 코드
 
 
-## 1. 프로젝트 소개
-    ### 1) 목표 : dcmrdbff
+## 1. Data Set
+    1) 출처 : [Kaggle Brain Tumor Classification (MRI)](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri)
+    2) 
 
-## 2. 데이터 출처
-[Kaggle Brain Tumor Classification (MRI)](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri)
+## 2. 프로젝트 Development
+    1) 목표 : Testing 결과 90%이상 정확도 
+    2) 소스명 : 
+    3) 개발환경 :
+    4) 아키텍처별 실험
+        (1) mobilenet
+        (2) Xception
+        (3) ..
+    5) 수행시간
 
 
-## 3. 데이터 분석
-### 1) 여유면적 분석
+## 결론
 
-![aaa](https://user-images.githubusercontent.com/127808901/235427890-71ed0567-4a9e-43b3-9071-dad7d0f355b7.png)
+![aaa]()
 
-
-        
-## 4. 결론
 
   
