@@ -59,15 +59,25 @@
         (5) [Shuffle한 Data set] Hiddenlayer(3개, node : 128), Dropout(0.3) / Optimizer : Adam(1e-5)
             가. Evaluate 결과 : 
             나. 소요시간 : loss 0.2881, acc: 0.9049
-            다. 평가 : 목표수치 도달, 과적합 해
+            다. 평가 : 목표수치 도달, 과적합 해소
 ![image](https://github.com/Decoyer-71/BrainTumor/assets/127948197/8cf95a18-87ee-46ba-98c9-f5dc397a9990)
+
 
 ### 2) Xception
         (1) [Shuffle한 Data set] Hiddenlayer(3개, node : 128), Dropout(0.25) / Optimizer : Adam(1e-5)
-            가. Evaluate 결과 : 
-            나. 소요시간 : 
-            다. 평가 : 
+            가. Evaluate 결과 : loss 0.5104, acc: 0.8764
+            나. 소요시간 : 0:10:54
+            다. 평가 
+                - 과적합이 심하며, validation이 고르지 못함
+                - Dropout과 optimizer 수치조정 후 재실험
+![image](https://github.com/Decoyer-71/BrainTumor/assets/127948197/ce9e773b-692b-4850-ac29-106a49a3deb9)
 
+        (2) [Shuffle한 Data set] Hiddenlayer(3개, node : 128), Dropout(0.3) / Optimizer : Adam(2e-5)
+            가. Evaluate 결과 : loss 0.6588, acc 0.8986
+            나. 소요시간 : 0:12:32
+            다. 평가 
+                - 
+![image](https://github.com/Decoyer-71/BrainTumor/assets/127948197/e88fe16e-fd93-4a8a-9854-fe04f9f5facb)
 
 
 ## 결론
