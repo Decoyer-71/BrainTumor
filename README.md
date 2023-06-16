@@ -15,12 +15,14 @@
 
 ## 1. Data Set
     1) 출처 : [Kaggle Brain Tumor Classification (MRI)](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri)
-    2) 
+    2) 구성
+        - Traning 폴더 : 2,872
+        - Testing 폴더(lable용) : 374
 
 ## 2. 프로젝트 Development
     1) 목표 : Testing 결과 90%이상 정확도 
     2) 소스명 : 
-    3) 개발환경 :
+    3) 개발환경 : 
     4) 아키텍처별 실험
         (1) mobilenet
         (2) Xception
