@@ -22,12 +22,18 @@
 ## 2. 프로젝트 Development
     1) 목표 : Testing 결과 90%이상 정확도 
     2) 소스명 : 
-    3) 개발환경 : [data](https://github.com/Decoyer-71/BrainTumor/tree/master/data)
-    [env_list](https://github.com/Decoyer-71/BrainTumor/blob/master/data/env_list.txt)
-    4) 아키텍처별 실험
+    3) 개발환경 
+        - data폴더 / env_list.txt
+        - Google colab
+    4) 아키텍처별 실험(Goole colab)
         (1) mobilenet
+            가. Hiddenlayer, Dropout 미설정
+                가) Evaluate 결과 : loss 1.7956, acc 0.7208
+                나) 과적합 심함
+                    ![image](https://github.com/Decoyer-71/BrainTumor/assets/127948197/f9d138c7-657f-400d-a340-5d00aaf5072c)
+                
+
         (2) Xception
-        (3) ..
     5) 수행시간
 
 
