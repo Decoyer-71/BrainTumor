@@ -33,11 +33,13 @@
             나. 소요시간 : 0:06:04
             다. 평가 : 과적합 심함
 ![image](https://github.com/Decoyer-71/BrainTumor/assets/127948197/f9d138c7-657f-400d-a340-5d00aaf5072c)
+
         (2) Hiddenlayer(3개, node : 128), Dropout(0.25) / Optimizer : Adam(1e-5)
             가. Evaluate 결과 : loss 0.9579, acc 0.7563
             나. 소요시간 : 0:06:58
             다. 평가 : 과적합은 없으나, evaluate 저조
 ![image](https://github.com/Decoyer-71/BrainTumor/assets/127948197/30aae419-c0b0-44c4-9e55-b6d7ac9644d7)
+
         (3) Hiddenlayer(3개, node : 256), Dropout(0.25) / Optimizer : Adam(1e-5)
             가. Evaluate 결과 : loss 1.1784, acc: 0.7335
             나. 소요시간 : 0:05:59
@@ -45,6 +47,7 @@
                 - Hiddenlayer node가 증가해도 test 와 train, validation 결과의 차이가 심함
                 - train과 test 이미지간 편향 의심, shuffle 후 재분배하여 추가 test필요
 ![image](https://github.com/Decoyer-71/BrainTumor/assets/127948197/4b664bf6-af9d-4763-b474-365b12760194)
+
         (4) [Shuffle한 Data set] Hiddenlayer(3개, node : 128), Dropout(0.25) / Optimizer : Adam(1e-5)
             가. Evaluate 결과 : loss 0.2921, acc: 0.8954
             나. 소요시간 : 0:05:10
@@ -52,6 +55,7 @@
                 - shuffle 후 evaluate 결과 개선
                 - 다소 과적합 발생, Dropout 수치를 상향조정하여 재실험       
 ![image](https://github.com/Decoyer-71/BrainTumor/assets/127948197/dc645b45-4e0e-4248-af71-3d0803acfb67)
+
         (5) [Shuffle한 Data set] Hiddenlayer(3개, node : 128), Dropout(0.3) / Optimizer : Adam(1e-5)
             가. Evaluate 결과 : 
             나. 소요시간 : loss 0.2881, acc: 0.9049
