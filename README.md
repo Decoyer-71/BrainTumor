@@ -26,10 +26,10 @@
         - data폴더 / env_list.txt
         - Google colab
 ## 아키텍처별 실험(Goole colab)
-### (1) mobilenet
-    가. Hiddenlayer, Dropout 미설정
-        가) Evaluate 결과 : loss 1.7956, acc 0.7208
-        나) 과적합 심함
+### 1) mobilenet
+        (1). Hiddenlayer, Dropout 미설정
+            가. Evaluate 결과 : loss 1.7956, acc 0.7208
+            나. 과적합 심함
 ![image](https://github.com/Decoyer-71/BrainTumor/assets/127948197/f9d138c7-657f-400d-a340-5d00aaf5072c)
                 
 
