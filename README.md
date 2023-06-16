@@ -22,7 +22,7 @@
 ## 2. 프로젝트 Development
     1) 목표 : Testing 결과 90%이상 정확도 
     2) 소스명 : 
-    3) 개발환경 : 
+    3) 개발환경 : [env_list](https://github.com/Decoyer-71/BrainTumor/blob/master/data/env_list.txt)
     4) 아키텍처별 실험
         (1) mobilenet
         (2) Xception
