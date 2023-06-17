@@ -91,10 +91,10 @@
 
 
 ## 결론
-    1) Tuning 한 후 Test와 Train, Validation의 결과가 지속적으로 과도하게 차이가 나면 데이터의 편향을 의심하여 전체 Data를 섞어서 재분배 처리를 하는 것이 유효함
-    2) Mobilenet이 상대적으로 적은 소요시간이 걸리는 장점을 가지며, 90%이상의 정확도 모델을 만드려면 Hiddenlayer(3개, node : 128), Dropout(0.3), Optimizer : Adam(1e-5) 설정필요
-    3) Xception은 Mobilenet에 비해 긴 소요시간(12 ~ 14분)을 보여주며, 90%이상의 정확도 모델을 구현하기 위해 Dropout 수치를 상향하고 Optimizer의 Learning_rate 수치를 낮춰서 학습시켜야한다. Mobilenet에 비해 과적합이 쉽게 발생하는 현상을 보임.
-    4) 
+### 1) Tuning 한 후 Test와 Train, Validation의 결과가 지속적으로 과도하게 차이가 나면 데이터의 편향을 의심하여 전체 Data를 섞어서 재분배 처리를 하는 것이 유효함
+### 2) Mobilenet이 상대적으로 적은 소요시간이 걸리는 장점을 가지며, 90%이상의 정확도 모델을 만드려면 Hiddenlayer(3개, node : 128), Dropout(0.3), Optimizer : Adam(1e-5) 설정필요
+### 3) Xception은 Mobilenet에 비해 긴 소요시간(12 ~ 14분)을 보여주며, 90%이상의 정확도 모델을 구현하기 위해 Dropout 수치를 상향하고 Optimizer의 Learning_rate 수치를 낮춰서 학습시켜야한다. Mobilenet에 비해 과적합이 쉽게 발생하는 현상을 보임.
+    
 
 
 
