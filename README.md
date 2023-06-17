@@ -28,7 +28,7 @@
         - Google colab(fitting 용)
         
 ## 아키텍처별 실험(Goole colab)
-### 1) Mobilenet (image_size = 224)
+### 1) Mobilenet 
         (1) Hiddenlayer, Dropout 미설정 / Optimizer : Adam(1e-5)
             가. Evaluate 결과 : loss 1.7956, acc 0.7208
             나. 소요시간 : 0:06:04
@@ -64,7 +64,7 @@
 ![image](https://github.com/Decoyer-71/BrainTumor/assets/127948197/8cf95a18-87ee-46ba-98c9-f5dc397a9990)
 
 
-### 2) Xception (image_size = 299)
+### 2) Xception 
         (1) [Shuffle한 Data set] Hiddenlayer(3개, node : 128), Dropout(0.25) / Optimizer : Adam(1e-5)
             가. Evaluate 결과 : loss 0.5104, acc: 0.8764
             나. 소요시간 : 0:10:54
