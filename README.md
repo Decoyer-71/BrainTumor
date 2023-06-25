@@ -22,7 +22,7 @@
 
 ## 2. 프로젝트 개요
     1) 목표 : Testing 결과 acc 0.90 이상 정확도 
-    2) 소스명 : 
+    2) 소스명 : data 폴더 -> Kaggle_Brain Tumor Classification.ipynb
     3) 개발환경 
         - data폴더 -> env_list.txt
         - Google colab(fitting 용)
