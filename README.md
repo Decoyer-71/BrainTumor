@@ -20,6 +20,10 @@
         - Testing 폴더 : 374
         - Label : giloma_tumor, meningioma_tumor, no_tumor, pituitary_tumor
 
+## [Image Sample]
+![image](https://github.com/Decoyer-71/BrainTumor/assets/127948197/b6264b69-bc08-4158-a6e8-7700b8490142)
+
+
 ## 2. 프로젝트 개요
     1) 목표 : Testing 결과 acc 0.90 이상 정확도 
     2) 소스명 : data 폴더 -> Kaggle_Brain Tumor Classification.ipynb
