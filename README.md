@@ -1,7 +1,7 @@
 # BrainTumor
 
 ## 주제 
-    TL(Transfer Learning) 아키텍쳐를 활용한 브레인 튜머 이미지 예측모델 생성
+    TL(Transfer Learning) 아키텍쳐를 활용한 브레인 튜머 이미지 분류모델 생성
 
 ## 사용언어
 <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/></a>
